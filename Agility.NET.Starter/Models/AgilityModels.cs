@@ -132,4 +132,16 @@ namespace Agility.Models
 		public string Text { get; set; }
 	}
 
+    public partial class HeroBanner
+    {
+        public string Title { get; set; }
+
+        public string SubTitle { get; set; }
+
+        public ImageAttachment Image { get; set; }
+
+        public Link Button { get; set; }
+
+    }
+
 }
